@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api')
 const express = require('express')
 require('dotenv').config()
 
-const token = '6471527484:AAH4X_SAUN4dGWh_bI6yXPdw923_K34GgNQ'
+const token = '7332583685:AAGIZqGbLn1gOQcOBWn87f1CvMxUyI5bcvU'
 const webAppUrl = 'https://calculator-wepapp.vercel.app/'
 
 const bot = new TelegramBot(token, { polling: true })
